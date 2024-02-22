@@ -46,16 +46,13 @@
 
 ```bash
 # Clone este repositório para o seu ambiente de desenvolvimento:
-$ git clone https://github.com/seu-usuario/
+$ git clone https://github.com/seu-usuario/TodoList-Ignite.git
 
 # Acesse o diretório do projeto:
-$ cd todolist-reactjs-ts
+$ cd TodoList-Ignite-master
 
 #Instale as dependências do projeto utilizando o npm:
 $ npm install
-
-#Instale o pacote "react-paginate" usando o gerenciador de pacotes npm:
-$ npm install react-paginate
 ```
 
 <h4>💻 Executando o projeto (web)</h4>
