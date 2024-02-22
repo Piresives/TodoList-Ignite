@@ -1,0 +1,49 @@
+.modal{
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.modalContent{
+    position: relative;
+    background-color: var(--gray-400);
+    border-radius: 10px;
+    padding: 2em 3em;
+    z-index: 9999999999;
+}
+
+.modalHeader{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.modalHeader strong{
+    margin-bottom: 1.2em;
+}
+
+.modalHeader button{
+    position: absolute;
+    top: 1.2em;
+    right: 1.2em;
+    background: none;
+    border: none;
+    color: var(--danger);
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.modalFooter{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    gap: 2.5em;
+}
+
+.modalFooter button{
+    cursor: pointer;
+}
